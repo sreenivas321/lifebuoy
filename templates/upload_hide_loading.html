@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Index | Lifebuoy</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link href="css/fontAttach/style.css" rel="stylesheet" type="text/css">
+<link href="css/lifebuoy.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/jquery.knob.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<header>
+        	<div class="headerBox">
+            	<h1><a href="#" id="logo">Lifebuoy</a></h1>
+                <div class="headerRight">
+                	<div class="overlay"></div>
+                    <div class="headerRightBox">
+                        <div class="closeMenuBtn"></div>
+                        <nav>
+                            <ul>
+                                <li class="selected"><a href="#">Home</a></li>
+                                <li><a href="#">How To join</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Upload Foto</a></li>
+                            </ul>
+                        </nav>
+                        <div class="findUsBox">
+                            <span>Find Us</span>
+                            <a href="#" class="fbBtn">Facebook</a>
+                            <a href="#" class="twBtn">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuBtn"></div>
+            </div>
+        </header>
+        <section>
+        	<div class="uploadWrapper">
+            	<div class="boxLeft">
+                	<div class="boxImg">
+                    	<img src="../userdata/d.jpg">
+                    </div>
+                    <div class="boxDesc">
+                    	<span>Tema Minggu pertama</span>
+                        <h2>Berhijab Kompak Ibu dan Anak</h2>
+                        <div class="boxInfo">
+                        	<p>Gunakan hijab favorit masing-masing, ambil foto selfie kalian dimana saja dan <span>upload foto tersebut di website ini</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxRight">
+                	<div class="uploadBox">
+                    	<h2><img src="images/photo_submission.png"></h2>
+                        <p><span>Pastikan kamu mengupload foto terbaik</p>
+karena hanya mendapatkan <span>1x kesempatan</span></p>
+						<div class="browse-wrap">
+                        	
+                        <span class="upload-path"></span>
+                            <a href="#" class="defBtn">Browse File</a>
+                            <input id="take-picture" type="file" accept="image/*" name="upload" class="upload" title="Choose a file to upload">
+                        </div>
+                        <p id="error"></p>
+                        <div class="photoPreview">
+                        	<img src="about:blank" id="capturedPhoto">
+                        </div>
+                        <div class="commentBox">
+                        	<textarea></textarea>
+                        </div>
+                        <div class="buttonWrapper">
+                        	<a href="#" class="defBtn blueBtn"><span class="arrow">Upload</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+        	<div class="footerBox">
+            	&copy; 2015 Lifebuoy. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <div class="popupWrapper">
+    	<div class="overlay" onClick="hide_popup()"></div>
+        <div id="popup-tnc" class="popupBox" style="display:block;">
+        	<div class="boxTop">
+            	<h3>Syarat dan Ketentuan</h3>
+            </div>
+            <div class="boxBottom">
+                <div class="tncBox">
+                    	<h4>Nyaman Berhijab Terlindungi</h4><br>
+
+<strong>Nyaman Berhijab Terlindungi</strong> adalah sebuah kompetisi foto online berhadiah persembahan 
+
+Lifebuoy® Indonesia, yang berlangsung dari tanggal 6 Juni –  22 Juli 2015, melalui situs 
+
+<a href="#">http://nyamanberhijab.lifebuoy.co.id</a> Syarat dan Ketentuan ini berisi tentang segala hal 
+
+terperinci yang terkait dengan program Nyaman Berhijab Terlindungi. Dilarang mengikuti 
+
+kompetisi ini apabila Anda tidak menyetujui Syarat dan Ketentuan berikut. Bila Anda mengakses 
+
+atau mendaftarkan diri Anda sesuai mekanisme yang tercantum di bawah ini, berarti Anda 
+
+setuju untuk terikat oleh Syarat dan Ketentuan sebagai berikut: <br><br>
+
+<ol>
+	<li>
+    	Syarat Peserta
+        <ol>
+	<li>Keluarga Warga Negara Indonesia.</li>
+    <li>Terbuka untuk umum, kecuali bagi karyawan PT. Unilever Indonesia Tbk., agen, production house, dan seluruh pihak yang terkait dalam penyelenggaraan kompetisi ini</li>
+    <li>Memiliki hubungan keluarga orang tua dan anak yang dapat dibuktikan dengan kartu keluarga.</li>
+    <li>Peserta (Ibu dan anak) wajib menggunakan hijab.</li>
+    <li>Peserta wajib mengikuti seluruh rangkaian kompetisi foto di situs <a href="#">http://nyamanberhijab.lifebuoy.co.id</a></li>
+    <li>Peserta wajib mem-follow halaman fans Facebook <a href="#">Lifebuoy®</a> dan Twitter <a href="#">@BeritaSehatID.</a></li>
+    <li>Peserta yang melakukan segala bentuk kecurangan dan pemalsuan data akan didiskualifikasi atau dianulir dari kompetisi foto <strong>Nyaman Berhijab Terlindungi.</strong></li>
+    <li>Peserta hanya mendapatkan 1 (satu) kali kesempatan untuk meng-upload foto di kompetisi <strong>Nyaman Berhijab Terlindungi.</strong></li>
+</ol>
+    </li>
+    <li>
+    	Mekanisme Kompetisi
+    	<ol>
+        	<li>Masuk ke situs <a href="#">http://nyamanberhijab.lifebuoy.co.id</a></li>
+            <li>Login melalui akun Facebook atau akun Twitter.</li>
+            <li>Ikuti tantangan foto Nyaman Berhijab Terlindungi mulai dari tanggal 6 Juni –  22 Juli 2015, sesuai dengan tema di setiap periodenya.</li>
+            <li>Upload  foto terbaik Moms dan Si Kecil menggunakan busana hijab, sesuai tema di setiap periodenya.</li>
+            <li>Share foto yang telah di-upload ke social media.</li>
+            <li>Tunggu pengumuman pemenang kompetisi di setiap akhir periode:
+            	<ul>
+                	<li>Periode 1: 27 Juni 2015</li>
+                    <li>Periode 2: 11 Juli 2015</li>
+                    <li>Periode 3: 25 Juli 2015</li>
+                    <li>Periode 4: 8 Agustus 2015</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>
+    	Tantangan Kompetisi 
+		<ol>
+        	<li>
+            	Kompetisi foto Nyaman Berhijab Terlindungi terbagi dalam 4 periode:
+            	<ul>
+                	<li>Periode 1: Foto bersama si kecil saat persiapan Ramadhan</li>
+                    <li>Periode 2: Foto ngabuburit bersama si kecil</li>
+                    <li>Periode 3: Foto kompak berhijab dengan si kecil</li>
+                    <li>Periode 4: Foto kompak dengan si kecil saat Lebaran</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>
+    	Pemenang
+        <ol>
+        	<li>Pemenang hiburan periode Ada 6 pemenang kompetisi yang dipilih berdasarkan kesesuaian foto dengan tema dan penilaian juri untuk setiap periodenya.</li>
+            <li>Pemenang utama kompetisi Ada 1pemenang kompetisi yang dipilih berdasarkan kesesuaian foto dengan tema dan penilaian juri sebagai pemenang utama</li>
+            <li>Pemenang harus menunjukkan KTP atau tanda pengenal resmi lainnya.</li>
+        </ol>
+    </li>
+    <li>
+    	Hadiah
+        <ol>
+        	<li>Hadiah hiburan dalam setiap periode: 24 Voucher Zoya masing-masing senilai Rp. 300.000.</li>
+            <li>Hadiah utama kompetisi: Voucher Zoya senilai Rp. 2.000.000. </li>
+            <li>Hadiah tidak dapat dipindahtangankan maupun ditukarkan dengan hadiah dalam bentuk lain.</li>
+            <li>Jika karena alasan apa pun pemberian hadiah tidak dapat berjalan sesuai rencana, pihak penyelenggara memiliki hak untuk memodifikasi ketentuan pemberian hadiah yang senilai dengan hadiah yang telah dijanjikan.</li>
+        </ol>
+    </li>
+    <li>
+    	Lain-lain
+        <ol>
+        	<li>Foto yang diikutsertakan dalam kompetisi harus merupakan milik peserta sendiri, dan tidak melanggar hak kekayaan intelektual milik pihak mana pun juga (termasuk hak cipta).</li>
+            <li>Pihak penyelanggara berhak menghapus materi yang diikutsertakan jika dianggap tidak memenuhi salah satu atau lebih Syarat dan Ketentuan ini.</li>
+            <li>Semua karya foto peserta yang diunggah dalam kompetisi Nyaman Berhijab Terlindungi menjadi hak milik PT. Unilever Indonesia Tbk., yang sepenuhnya dapat digunakan, disesuaikan, dan diubah untuk disebarluaskan, diperbanyak serta dipublikasikan dalam bentuk apa pun, dalam jumlah dan jangka waktu tak terbatas untuk kepentingan Lifebuoy®.</li>
+            <li>Dengan mengikuti kompetisi ini, peserta memberikan izin kepada pihak penyelenggara untuk menggunakan data peserta demi kepentingan Lifebuoy® dan/atau grup perusahaan PT. Unilever Indonesia Tbk.</li>
+            <li>Ketentuan yang dibuat oleh dewan juri bersifat mutlak dan tidak dapat diganggu gugat.</li>
+            <li>Syarat dan Ketentuan dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu.</li>
+            <li>Kompetisi ini berada di bawah dan mengikuti hukum yang berlaku di Republik Indonesia.</li>
+            <li>Jika ada pajak yang dikenakan kepada perserta, maka akan ditanggung oleh penyelenggara.</li>
+            <li>Pihak penyelenggara tidak memungut biaya apapun kepada peserta yang mengikuti kompetisi <strong>Nyaman Hijab Terlindungi.</strong></li>
+            <li>Hati-hati terhadap segala bentuk penipuan yang mengatasnamakan PT. Unilever Indonesia Tbk., dan/atau penyelenggara acara ini.</li>
+            <li>Info lebih lanjut hubungi Suara Konsumen Unilever 0800-1-558000 (bebas pulsa) atau (021) 52995299 (pulsa bayar) atau <a href="#">Suara.Konsumen@unilever.com.</a></li>
+        </ol>
+    </li>
+</ol>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

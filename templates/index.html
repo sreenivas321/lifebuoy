@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Index | Lifebuoy</title>
+<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="HandheldFriendly" content="true" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link href="css/fontAttach/style.css" rel="stylesheet" type="text/css">
+<link href="css/selectordie.css" rel="stylesheet" type="text/css">
+<link href="css/lifebuoy.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/jquery.knob.min.js"></script>
+<script src="js/selectordie.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<header>
+        	<div class="headerBox">
+            	<h1><a href="#" id="logo">Lifebuoy</a></h1>
+                <div class="headerRight">
+                	<div class="overlay"></div>
+                    <div class="headerRightBox">
+                        <div class="closeMenuBtn"></div>
+                        <nav>
+                            <ul>
+                                <li class="selected"><a href="#banner" class="homeNav">Home</a></li>
+                                <li><a href="#howtojoin" class="howtojoinNav">How To join</a></li>
+                                <li><a href="#gallery" class="galleryNav">Gallery</a></li>
+                                <li><a href="#">Upload Foto</a></li>
+                            </ul>
+                        </nav>
+                        <div class="findUsBox">
+                            <span>Find Us</span>
+                            <a href="#" class="fbBtn">Facebook</a>
+                            <a href="#" class="twBtn">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuBtn"></div>
+            </div>
+        </header>
+        <section>
+        	<div class="homeBannerWrapper container" id="banner">
+            	<div class="homeBoxMain">
+                	<img class="desktop" src="../userdata/b.jpg">
+                    <img class="mobile" src="../userdata/e.png">
+                    <div class="infoMain">
+                    	<div id="logo_hijab"></div>
+                        <div class="infoBox">
+                        	<span>Tantangan</span>
+                            <span>Minggu ke-1</span>
+                        </div>
+                        <h2>Berhijab Kompak Ibu dan Anak</h2>
+                        <p>Gunakan hijab favorit masing-masing, ambil foto selfie kalian dimana saja dan <span>upload foto tersebut 
+di website ini</span></p>
+						<a href="#" class="defBtn" onClick="show_login()"><span class="arrow">Ikut Tantangan</span></a>
+                    </div>
+                </div>
+                <div class="homeBoxNext">
+	                <img src="../userdata/c.jpg">
+                    <div class="infoNext">
+                    	<div class="infoTop">Minggu Ke-1</div>
+                        <div class="infoBot">
+                        	Tunggu <span>8 hari</span> lagi ya, Bunda
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	<div class="HowToJoinWrapper container" id="howtojoin">
+            	<div class="howToJoinBox">
+                	<h2><img src="images/how_to_join_text.png"></h2>
+                    <div class="htjList">
+                    	<ul>
+                        	<li>
+                            	<img src="images/how_to_join_1.png">
+                            	<span>Login</span> dengan<br>social media
+                            </li>
+                            <li>
+                            	<img src="images/how_to_join_2.png">
+                            	<span>Upload fotomu</span><br>dengan sang anak di setiap Periode
+                            </li>
+                            <li>
+                            	<img src="images/how_to_join_3.png">
+                            	<span>Share fotomu</span> lewat social media & dapatkan bingkisan
+                            </li>
+                            <li>
+                            	<img src="images/how_to_join_4.png">
+                            	Tunggu <span>pengumuman pemenang</span> di setiap akhir periode
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        	<div class="galleryWrapper container" id="gallery">
+            	<div class="galleryBox">
+                    <h2><img src="images/galleri_submision.png"></h2>
+                    <div class="weeksBox">
+                        <ul>
+                            <li><a href="#" class="selected">Semua</a></li>
+                            <li><a href="#">Minggu Pertama</a></li>
+                            <li><a href="#">Minggu Kedua</a></li>
+                            <li><a href="#">Minggu Ketiga</a></li>
+                            <li><a href="#">Minggu Keempat</a></li>
+                        </ul>
+                        <select>
+                        	<option>Lihat Gallery</option>
+                            <option>Semua</option>
+                            <option>Minggu pertama</option>
+                            <option>Minggu kedua</option>
+                        </select>
+                    </div>
+                    <div class="galleryListBox">
+                        <ul>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/d.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                    <div class="galleryHover">
+                                        <div class="title">Pemenang Minggu Pertama</div>
+                                        <h3>Sholad Ied Bersama Bunda</h3>
+                                        <span>a minute ago</span>
+                                    </div>
+                                </div>
+                                <div class="ribbon"></div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                            	<div class="glWrapper">
+                                    <div class="galleryImg">
+                                        <img src="../userdata/a.jpg">
+                                    </div>
+                                    <div class="sosmedBox">
+                                        <div class="sosmedContent twitterBox">
+                                            @ Nuraini
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="buttonWrapper">
+                        <a href="#" class="defBtn"><span class="arrowBottom">Load More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+        	<div class="footerBox">
+            	&copy; 2015 Lifebuoy. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <div class="popupWrapper">
+    	<div class="overlay" onClick="hide_popup()"></div>
+        <div id="popup-login" class="popupBox">
+        	<div class="boxTop">
+            	<h3>BARU PERTAMA KALI MENGIKUTI CHALENGE?</h3>
+            </div>
+            <div class="boxBottom">
+            	<p><span>Login dengan social media</span> mu agar<br>Lifebuoy dapat menghubungi kamu jika kamu<br>terpilih sebagai pemenang</p><br>
+                <div class="buttonWrapper">
+                	<a href="#" class="loginFb"><span>Login with Facebook</span></a>
+                    <a href="#" class="loginTwitter"><span>Login with Twitter</span></a>
+                </div>
+            </div>
+        </div>
+        <div id="popup-gallery" class="popupBox" style="display:block;">
+        	<div class="galleryPopup">
+            	<img src="../userdata/a.jpg">
+                <div class="photoInfo">
+                    <div class="nameUploader twitter">@ Nuraini</div>
+                    <p>Aku dan anakku sewaktu persiapan ibadah solat ied #lifebuoyhijabnyaman via @lifebuoy</p>
+                    <span>15 minutes ago</span>
+                </div>
+           	</div>
+            <a href="#" class="closeBtn" onClick="hide_popup()">Close</a>
+        </div>
+    </div>
+</body>
+</html>

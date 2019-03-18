@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Index | Lifebuoy</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link href="css/fontAttach/style.css" rel="stylesheet" type="text/css">
+<link href="css/lifebuoy.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/jquery.knob.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<header>
+        	<div class="headerBox">
+            	<h1><a href="#" id="logo">Lifebuoy</a></h1>
+                <div class="headerRight">
+                	<div class="overlay"></div>
+                    <div class="headerRightBox">
+                        <div class="closeMenuBtn"></div>
+                        <nav>
+                            <ul>
+                                <li class="selected"><a href="#">Home</a></li>
+                                <li><a href="#">How To join</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Upload Foto</a></li>
+                                
+                                <li class="selected"><a href="#">Home</a></li>
+                                <li><a href="#">How To join</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Upload Foto</a></li>
+                                
+                                <li class="selected"><a href="#">Home</a></li>
+                                <li><a href="#">How To join</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Upload Foto</a></li>
+                            </ul>
+                        </nav>
+                        <div class="findUsBox">
+                            <span>Find Us</span>
+                            <a href="#" class="fbBtn">Facebook</a>
+                            <a href="#" class="twBtn">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuBtn"></div>
+            </div>
+        </header>
+        <section>
+        	<div class="uploadWrapper">
+            	<div class="boxLeft">
+                	<div class="boxImg">
+                    	<img src="../userdata/d.jpg">
+                    </div>
+                    <div class="boxDesc">
+                    	<span>Tema Minggu pertama</span>
+                        <h2>Berhijab Kompak Ibu dan Anak</h2>
+                        <div class="boxInfo">
+                        	<p>Gunakan hijab favorit masing-masing, ambil foto selfie kalian dimana saja dan <span>upload foto tersebut di website ini</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxRight">
+                	<div class="uploadBox">
+                    	<h2><img src="images/photo_submission.png"></h2>
+                        <p><span>Pastikan kamu mengupload foto terbaik</p>
+karena hanya mendapatkan <span>1x kesempatan</span></p>
+						<div class="browse-wrap">
+                        	
+                        <span class="upload-path"></span>
+                            <a href="#" class="defBtn">Browse File</a>
+                            <input id="take-picture" type="file" accept="image/*" name="upload" class="upload" title="Choose a file to upload">
+                        </div>
+                        <p id="error"></p>
+                        <div class="photoPreview">
+                        	<img src="about:blank" id="capturedPhoto">
+                        </div>
+                        <div class="commentBox">
+                        	<textarea></textarea>
+                        </div>
+                        <div class="buttonWrapper">
+                        	<a href="#" class="defBtn blueBtn"><span class="arrow">Upload</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+        	<div class="footerBox">
+            	&copy; 2015 Lifebuoy. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <div class="popupWrapper" style="display:block;">
+    	<div class="overlay"></div>
+        <div id="popup-thankyou" class="popupBox" style="display:block;">
+        	<div class="boxTop">
+            	<h3>Terima kasih!</h3>
+                <p><span>Foto anda telah berhasil masuk<br> ke sistem kami.</span> Tunggu pengumuman<br> pemenang di akhir periode.  Jika anda<br>belum beruntung terpilih sebagai pemenang<br>pada minggu ini, jangan khawatir karena masih<br>ada periode berikutnya.</p>
+            </div>
+            <div class="boxBottom">
+            	<p>Share foto yang telah diupload ke social media<br>anda dan dapatkan bingkisan cantik untuk<br> 
+pemenang yang dipilih</p><br>
+                <div class="buttonWrapper">
+                	<span class="share">Share With</span>
+                	<a href="#" class="loginFb"><span>Share with Facebook</span></a>
+                    or
+                    <a href="#" class="loginTwitter"><span>Share with Twitter</span></a>
+                    <a href="#" class="defBtn"><span class="arrow">Selesai</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
